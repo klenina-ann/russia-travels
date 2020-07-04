@@ -1,0 +1,11 @@
+.comment__info {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .comment__info  {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

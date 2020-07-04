@@ -1,0 +1,33 @@
+.cover {
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    background-image: url(../../../images/cover-bg.png);
+    margin: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    font-family: 'Inter', Arial, sans-serif;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        width: calc(100% + 96px);
+        margin: 0 -48px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .cover {
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+    }
+}
+
+
+@media (max-width: 559px) {
+    .cover {
+        background-size: cover;
+        width: calc(100% + 32px);
+        margin: 0 -16px;
+    }
+}

@@ -1,0 +1,12 @@
+.places {
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    font-family: 'Inter', Arial, sans-serif;
+    padding: 0 100px;
+}
+
+@media (max-width: 1024px) {
+    .places {
+        padding: 0;
+    }
+}

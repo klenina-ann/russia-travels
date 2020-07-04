@@ -1,0 +1,16 @@
+.video {
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .video {
+        width: 95%;
+    }
+}
+
+@media (max-width: 559px) {
+    .video {
+        width: 95%;
+    }
+}

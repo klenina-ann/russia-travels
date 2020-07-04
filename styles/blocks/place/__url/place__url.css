@@ -1,0 +1,11 @@
+.place__url {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.place__url:hover {
+    color: #2F80ED;
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+}

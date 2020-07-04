@@ -1,0 +1,18 @@
+.intro {
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    font-family: 'Inter', Arial, sans-serif;
+    margin: auto;
+}
+
+@media (min-width: 1280px) {
+    .intro {
+        max-width: 984px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .intro {
+        max-width: 928px;
+    }
+}

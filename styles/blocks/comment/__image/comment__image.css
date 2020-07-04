@@ -1,0 +1,14 @@
+.comment__image {
+    margin-bottom: 42px;
+    width: 97px;
+    height: 97px;
+    background-color: #2A2C2F;
+    border-radius: 55px;
+}
+
+@media (max-width: 768px) {
+    .comment__image  {
+        display: block;
+        margin: auto;
+    }
+}

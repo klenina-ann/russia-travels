@@ -1,0 +1,17 @@
+.header {
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0 auto;
+}
+
+@media (max-width: 559px) {
+    .header {
+        padding-top: 16px;
+    }
+}

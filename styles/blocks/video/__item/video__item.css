@@ -1,0 +1,7 @@
+.video__item {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}

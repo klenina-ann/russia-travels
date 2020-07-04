@@ -1,0 +1,33 @@
+.cover__link{
+    height: 594px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    transition: background-color 0.5s ease; 
+}
+
+.cover__link:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+
+@media (max-width: 1024px) {
+    .cover__link {
+        height: 55vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__link {
+        height: 65vw;
+    }
+}
+
+@media (max-width: 559px) {
+    .cover__link {
+        height: 72vw;
+    }
+}

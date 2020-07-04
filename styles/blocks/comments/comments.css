@@ -1,0 +1,15 @@
+.comments {
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    padding-top: 102px;
+    padding-bottom: 102px;
+}
+
+@media (max-width: 559px) {
+    .comments  {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}

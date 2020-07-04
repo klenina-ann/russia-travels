@@ -1,0 +1,28 @@
+.content-title {
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    max-width: 800px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 1024px) {
+    .content-title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 559px) {
+    .content-title {
+        font-size: 32px;
+        line-height: 35px;
+        margin: auto;
+    }
+}
